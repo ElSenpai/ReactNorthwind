@@ -2,6 +2,7 @@
 import { Container } from 'semantic-ui-react';
 import './App.css';
 import Dashboard from './layouts/Dashboard.jsx';
+import Navi from './layouts/Navi';
 
 
 function App() {
