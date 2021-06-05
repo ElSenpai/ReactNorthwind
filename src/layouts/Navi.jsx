@@ -5,7 +5,7 @@ import { Button, Dropdown, Menu } from 'semantic-ui-react'
 export default function Navi() {
     return (
         <div>
-             <Menu size='mini'>
+             <Menu inverted size='mini'>
         <Menu.Item
           name='home'
           
