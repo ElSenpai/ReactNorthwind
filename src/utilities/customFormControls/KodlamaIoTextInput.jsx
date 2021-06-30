@@ -13,5 +13,6 @@ export default function KodlamaIoTextInput({...props}) {
         <input {...field} {...props}/>
         {meta.touched &&  !!meta.error ? (<Label color="red" pointing content={meta.error}></Label>):null}
        </FormField>
+       
     )
 }
